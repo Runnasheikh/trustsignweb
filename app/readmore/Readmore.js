@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from "next/image"
 const Readmore = () => {
   return (
     <div className="bg-blue-200 relative">
@@ -24,34 +24,34 @@ const Readmore = () => {
           </div>
         </div>
         <div className="flex flex-col items-center space-y-2 justify-content-center">
-          <img
+          <Image
             alt="Playlist Icon"
             loading="lazy"
             width={100}
             height={100}
             decoding="async"
-            data-nimg="1"
+            data-nImage="1"
             style={{ color: 'transparent' }}
             srcSet="https://images.pexels.com/photos/14447126/pexels-photo-14447126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2,https://images.pexels.com/photos/14447126/pexels-photo-14447126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             src="https://images.pexels.com/photos/14447126/pexels-photo-14447126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           />
-          <img
+          <Image
             alt="arrow Icon"
             loading="lazy"
             width="15"
             height="64"
             decoding="async"
-            data-nimg="1"
+            data-nImage="1"
             style={{ color: 'transparent' }}
             src=""
           />
-          <img
+          <Image
             alt="Playlist Icon"
             loading="lazy"
             width={100}
             height={100}
             decoding="async"
-            data-nimg="1"
+            data-nImage="1"
             style={{ color: 'red' }}
             srcSet="https://images.pexels.com/photos/14447126/pexels-photo-14447126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2,https://images.pexels.com/photos/14447126/pexels-photo-14447126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             src="https://images.pexels.com/photos/14447126/pexels-photo-14447126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"

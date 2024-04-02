@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image"
 import "../app/css/Headers.css"
 const CustomWidgetsSection = () => {
   return (
@@ -19,7 +20,7 @@ const CustomWidgetsSection = () => {
           </div>
         </div>
         <div>
-          <img src="https://cdn.pixabay.com/photo/2024/01/17/15/39/ai-generated-8514852_1280.jpg" alt="" />
+          <Image src="https://cdn.pixabay.com/photo/2024/01/17/15/39/ai-generated-8514852_1280.jpg" alt="" />
         </div>
       </div>
     </div>

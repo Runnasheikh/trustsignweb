@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import "../slider/Slider.css"
+import Image from "next/image"
 
 function Slider() {
   const [active, setActive] = useState(0);
@@ -40,7 +41,7 @@ function Slider() {
       <div className="list" style={{ left: -active * 100 + '%' }}>
         {items.map((item) => (
           <div className="item" key={item.id}>
-            <img src={item.src} alt="" />
+            <Image src={item.src} alt="" />
           </div>
         ))}
       </div>
