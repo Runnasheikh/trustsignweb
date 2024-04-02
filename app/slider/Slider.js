@@ -1,7 +1,7 @@
-"use client"
+'use client'
 import React, { useState, useEffect } from 'react';
-import "../slider/Slider.css"
-import Image from "next/image"
+import '../slider/Slider.css'
+import Image from 'next/image'
 
 function Slider() {
   const [active, setActive] = useState(0);
@@ -37,23 +37,23 @@ function Slider() {
   }, []);
 
   return (
-    <div className="slider">
-      <div className="list" style={{ left: -active * 100 + '%' }}>
+    <div className='slider'>
+      <div className='list' style={{ left: -active * 100 + '%' }}>
         {items.map((item) => (
-          <div className="item" key={item.id}>
-            <Image src={item.src} alt="" />
+          <div className='item' key={item.id}>
+            <Image src={item.src} alt='' />
           </div>
         ))}
       </div>
-      <div className="buttons">
-        <button id="prev" onClick={prevSlide}>
+      <div className='buttons'>
+        <button id='prev' onClick={prevSlide}>
           {'<'}
         </button>
-        <button id="next" onClick={nextSlide}>
+        <button id='next' onClick={nextSlide}>
           {'>'}
         </button>
       </div>
-      <ul className="dots">
+      <ul className='dots'>
         {items.map((_, index) => (
           <li key={index} className={index === active ? 'active' : ''} onClick={() => handleDotClick(index)}></li>
         ))}
