@@ -14,18 +14,18 @@ export default function Glass() {
           </div>
           <ul class="cards">
       <li class="card">
-        {/* <Image src="" alt="Image is not loading"/> */}
+        {/* <img src="" alt="img is not loading"/> */}
         <h3>Tents</h3>
         {/* <p>Experience comfort and protection with our high-quality camping tents.</p> */}
       </li>
       <li class="card"> 
-         {/* <Image src="../images/bags.jpg" alt="Image"/> */}
+         {/* <img src="../images/bags.jpg" alt="img"/> */}
          {/* <Image src="/bgphoto.jpg"  width={200} height={500}/> */}
         <h3>Dynamic playlist</h3>
         <p>Creating and managing dynamic content playlists for effective display in digital signage.</p>
       </li>
       <li class="card">
-        <Image src="../images/stoves.jpg" alt="Image"/>
+        <img src="../images/stoves.jpg" alt="img"/>
         <h3>Full remote control</h3>
         <p>Remote control of screens for seamless management in digital signage networks</p>
       </li>
@@ -38,33 +38,33 @@ export default function Glass() {
     <p>Explore our wide range of camping gear services.</p>
     <ul class="cards">
       <li class="card">
-        <Image src="" alt="Image is not loading"/>
+        <img src="" alt="img is not loading"/>
         <h3>Tents</h3>
         <p>Experience comfort and protection with our high-quality camping tents.</p>
       </li>
       <li class="card"> */}
-        {/* <Image src="../images/bags.jpg" alt="Image"/> */}
+        {/* <img src="../images/bags.jpg" alt="img"/> */}
         {/* <Image src="/bgphoto.jpg"  width={200} height={500}/>
         <h3>Sleeping Bags</h3>
         <p>Stay cozy and warm during your camping trips with our premium sleeping bags.</p>
       </li>
       <li class="card">
-        <Image src="../images/stoves.jpg" alt="Image"/>
+        <img src="../images/stoves.jpg" alt="img"/>
         <h3>Camp Stoves</h3>
         <p>Cook delicious meals in the great outdoors with our reliable camp stoves.</p>
       </li>
       <li class="card">
-        <Image src="../images/backpacks.jpg" alt="Image"/>
+        <img src="../images/backpacks.jpg" alt="img"/>
         <h3>Backpacks</h3>
         <p>Carry your essentials comfortably with our durable and functional camping backpacks.</p>
       </li>
       <li class="card">
-        <Image src="../images/chair.jpg" alt="Image"/>
+        <img src="../images/chair.jpg" alt="img"/>
         <h3>Camp Chairs</h3>
         <p>Relax and unwind in style with our comfortable and portable camping chairs.</p>
       </li>
       <li class="card">
-        <Image src="../images/light.jpg" alt="Image"/>
+        <img src="../images/light.jpg" alt="img"/>
         <h3>Camp Lights</h3>
         <p>Illuminate your campsite with our reliable and energy-efficient camping lights.</p>
       </li>
@@ -75,32 +75,32 @@ export default function Glass() {
     <p>Take a look at some of our memorable camping adventures.</p>
     <ul class="cards">
       <li class="card">
-        <Image src="../images/camping-1.jpg" alt="Image"/>
+        <img src="../images/camping-1.jpg" alt="img"/>
         <h3>Mountain Hiking</h3>
         <p>Embark on an exhilarating hiking adventure in the breathtaking mountain ranges.</p>
       </li>
       <li class="card">
-        <Image src="../images/camping-2.jpg" alt="Image"/>
+        <img src="../images/camping-2.jpg" alt="img"/>
         <h3>Lakeside Camping</h3>
         <p>Enjoy a tranquil camping experience by the serene shores of picturesque lakes.</p>
       </li>
       <li class="card">
-        <Image src="../images/camping-3.jpg" alt="Image"/>
+        <img src="../images/camping-3.jpg" alt="img"/>
         <h3>Beach Camping</h3>
         <p>Escape to sandy beaches and camp under the starry sky by the crashing waves.</p>
       </li>
       <li class="card">
-        <Image src="../images/camping-4.jpg" alt="Image"/>
+        <img src="../images/camping-4.jpg" alt="img"/>
         <h3>Forest Exploration</h3>
         <p>Discover the wonders of lush forests and immerse yourself in nature's beauty.</p>
       </li>
       <li class="card">
-        <Image src="../images/camping-5.jpg" alt="Image"/>
+        <img src="../images/camping-5.jpg" alt="img"/>
         <h3>RV Camping</h3>
         <p>Experience the freedom of road trips and camping adventures with our RV rentals.</p>
       </li>
       <li class="card">
-        <Image src="../images/camping-6.jpg" alt="Image"/>
+        <img src="../images/camping-6.jpg" alt="img"/>
         <h3>Desert Camping</h3>
         <p>Embark on a unique desert camping experience and witness stunning landscapes.</p>
       </li>

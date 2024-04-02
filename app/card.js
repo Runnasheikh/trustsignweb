@@ -1,10 +1,9 @@
 import React from 'react';
-import Image from "next/image"
+
 
 const FeatureCard = ({ iconSrc, title, description, gradientFrom, gradientTo }) => (
   <div className="flex flex-col p-6 shadow rounded-2xl" style={{ backgroundImage: `linear-gradient(to bottom right, ${gradientFrom}, ${gradientTo})` }}>
-    <Image alt="Feature Icon" loading="lazy" width="64" height="64" decoding="async" src={iconSrc} style={{borderRadius:100}}/>
-  
+    <img alt="Feature Icon" loading="lazy" width="64" height="64" decoding="async" src={iconSrc} style={{borderRadius:100}}/>
     <div className="mt-6 text-white">
       <p className="text-2xl font-medium">{title}</p>
       <p className="pb-6 mt-4 text-base">{description}</p> 
@@ -62,7 +61,7 @@ const FeaturesSection = () => (
        
         <div className=" lg:block relative">
           
-          <Image
+          <img
             alt="Feature Screenshot"
             
            

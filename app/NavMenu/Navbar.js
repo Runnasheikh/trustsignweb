@@ -24,15 +24,19 @@ const [navbarActive, setNavbarActive] = useState(false); // New state for navbar
   };
 
   const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setNavbarActive(true);
-    } else {
-      setNavbarActive(false);
+    if (typeof window !== 'undefined') {
+      if (window.scrollY > 0) {
+        setNavbarActive(true);
+      } else {
+        setNavbarActive(false);
+      }
     }
   };
+  
 
   // Listen to scroll events
-  window.addEventListener('scroll', handleScroll);
+  
+  
 
   return (
     <header className="header">
@@ -122,7 +126,7 @@ const [navbarActive, setNavbarActive] = useState(false); // New state for navbar
                 <input type="checkbox" id="remember" />
                 <p>Remember me</p>
               </label>
-              <a href="#">Forgot password?</a>
+              <a href="#">Forgot password</a>
             </div>
             <button type="submit">Log In</button>
             <div className="register">

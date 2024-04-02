@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import Image from "next/image"
+
 const Switch = () => {
   const [selectedTab, setSelectedTab] = useState('createAccount');
 
@@ -80,15 +80,15 @@ const Switch = () => {
          <div className="flex flex-col py-10 mx-auto space-y-16 lg:flex-row lg:space-y-0 lg:px-8 max-w-7xl lg:space-x-20">
       <div className="flex flex-col gap-y-4 lg:w-1/2">
         <div className="flex">
-          <Image
+          <img
             alt="Playlist Icon"
             loading="lazy"
             width="96"
             height="64"
             decoding="async"
-            data-nImage="1"
+            data-nimg="1"
             style={{ color: 'transparent' }}
-            src="https://www.wilyer.com/assets/Images/create-account.svg"
+            src="https://www.wilyer.com/assets/imgs/create-account.svg"
           />
           <h2 className="my-4 ml-4 text-2xl font-medium xl:leading-relaxed xl:text-4xl text-black">
             Create your account & start your work
@@ -109,15 +109,15 @@ const Switch = () => {
         </div>
       </div>
       <div>
-        <Image
+        <img
           alt="create account"
           loading="lazy"
           width="600"
           height="64"
           decoding="async"
-          data-nImage="1"
+          data-nimg="1"
           style={{ color: 'transparent' }}
-          src="https://www.wilyer.com/assets/Images/create-account.svg"
+          src="https://www.wilyer.com/assets/imgs/create-account.svg"
         />
       </div>
     </div>
@@ -128,13 +128,13 @@ const Switch = () => {
           <div className="flex flex-col py-10 mx-auto space-y-16 lg:flex-row lg:space-y-0 lg:px-8 max-w-7xl lg:space-x-20">
       <div className="flex flex-col gap-y-4 lg:w-1/2">
         <div className="flex">
-          <Image
+          <img
             alt="install Icon"
             loading="lazy"
             width="96"
             height="64"
             decoding="async"
-            data-nImage="1"
+            data-nimg="1"
             style={{ color: 'transparent' }}
             src="/assets/icons/install-icon.svg"
           />
@@ -157,13 +157,13 @@ const Switch = () => {
         </div>
       </div>
       <div>
-        <Image
+        <img
           alt="download illustration"
           loading="lazy"
           width="600"
           height="64"
           decoding="async"
-          data-nImage="1"
+          data-nimg="1"
           style={{ color: 'transparent' }}
           src="/assets/icons/install-illustration.svg"
         />
@@ -175,13 +175,13 @@ const Switch = () => {
         <div className="flex flex-col py-10 mx-auto space-y-16 lg:flex-row lg:space-y-0 lg:px-8 max-w-7xl lg:space-x-20">
            <div className="flex flex-col gap-y-4 lg:w-1/2">
         <div className="flex">
-          <Image
+          <img
             alt="install icon"
             loading="lazy"
             width="96"
             height="64"
             decoding="async"
-            data-nImage="1"
+            data-nimg="1"
             style={{ color: 'transparent' }}
             src="/assets/icons/install-icon.svg"
           />
@@ -205,15 +205,15 @@ const Switch = () => {
         </div>
       </div>
       <div>
-        <Image
+        <img
           alt="pair illustration"
           loading="lazy"
           width="600"
           height="64"
           decoding="async"
-          data-nImage="1"
+          data-nimg="1"
           style={{ color: 'transparent' }}
-          src="/assets/Images/pair-illustration.svg"
+          src="/assets/imgs/pair-illustration.svg"
         />
       </div>
         </div>

@@ -20,7 +20,7 @@ const CustomWidgetsSection = () => {
           </div>
         </div>
         <div>
-          <Image src="https://cdn.pixabay.com/photo/2024/01/17/15/39/ai-generated-8514852_1280.jpg" alt="" />
+          <img src='https://cdn.pixabay.com/photo/2024/01/17/15/39/ai-generated-8514852_1280.jpg'/>
         </div>
       </div>
     </div>
