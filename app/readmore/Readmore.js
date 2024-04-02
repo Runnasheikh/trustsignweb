@@ -19,7 +19,7 @@ const Readmore = () => {
           </div>
           <div className='flex items-center space-x-4'>
             <a href='' className='rounded-md bg-gradient-to-b text-center from-blue-600 to-blue-500 px-12 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
-              Let's Try it out
+              Let Try it out
             </a>
           </div>
         </div>

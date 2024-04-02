@@ -127,7 +127,7 @@ const [navbarActive, setNavbarActive] = useState(false); // New state for navbar
             <button type="submit">Log In</button>
             <div className="register">
               <p>
-                Don't have an account? <a href="#">Register</a>
+                Don have an account? <a href="#">Register</a>
               </p>
             </div>
           </form>
